@@ -981,6 +981,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+  margin-left: 8.5px;
+  margin-right: 4px;
 }
 /* 
 .form_contract_row.label:checked {
@@ -995,7 +1004,7 @@ body {
   appearance: none;
 }
 
-.checkbox_icon {
+.form_checkbox_icon {
   display: inline-block;
   width: 16px;
   height: 15px;
